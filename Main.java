@@ -188,7 +188,7 @@ public class Main {
         System.out.println("----------   Punto 13   -----------");
         Date date = new Date();
         SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-        System.out.println(dateFormat.format(date));*/
+        System.out.println(dateFormat.format(date));
 
         //Punto 14
         System.out.println("");
@@ -204,6 +204,24 @@ public class Main {
         //Punto 15
         System.out.println("");
         System.out.println("----------   Punto 15   -----------");
+        Integer option;
+        do {
+            System.out.println("****** GESTION CINEMATOGRAFICA ********");
+            System.out.println("1-NUEVO ACTOR");
+            System.out.println("2-BUSCAR ACTOR");
+            System.out.println("3-ELIMINAR ACTOR");
+            System.out.println("4-MODIFICAR ACTOR");
+            System.out.println("5-VER TODOS LOS ACTORES");
+            System.out.println("6- VER PELICULAS DE LOS ACTORES");
+            System.out.println("7-VER CATEGORIA DE LAS PELICULAS DE LOS ACTORES");
+            System.out.println("8-SALIR\n");
+            System.out.println("Seleccione una opción:");
+            option = input.nextInt();
+            if(option<1 || option>8){
+                System.out.println("OPCION INCORRECTO\n");
+            }
+
+        }while (option != 8);*/
 
 
     }
